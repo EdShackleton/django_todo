@@ -32,7 +32,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = development
 
 ALLOWED_HOSTS = [os.environ.get('C9_HOSTNAME'),
-                 os.environ.get('HOSTNAME')]
+                 os.environ.get('c0c46a4db87d4ec7b0a2a9d1541c432d.vfs.cloud9.us-east-1.amazonaws.com')]
 
 host = os.environ.get('SITE_HOST')
 if host:
